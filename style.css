@@ -1,0 +1,63 @@
+.portada__iconos-link i {
+  font-size: 40px;
+  color: white;
+}
+
+.portada__iconos-link i:hover {
+  color: rgb(207, 207, 207);
+}
+
+.portada {
+  margin-top: 69px;
+  background-color: lightgray;
+  width: 100%;
+  height: 300px;
+}
+
+.contenedor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+
+.carousel{
+    width: 100%;
+}
+
+.brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 50PX;
+}
+
+.brands img {
+  width: 150px;
+  height: 150px;
+  margin: 25px;
+}
+
+.brands:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.contactus {
+  font-size: 40px;
+  color: red;
+}
+.aboutus {
+  font-size: 40px;
+  color: green;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
