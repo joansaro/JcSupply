@@ -69,6 +69,22 @@
 
 
 @media screen and (min-width: 1024px) {
+  .container-prueva {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .carousel-inner{
+    height: 100vh;
+  }
+
+  .banner-img{
+    height: 100vh;
+  }
 
   .aboutus{
     background: #c2c2c2 ;
