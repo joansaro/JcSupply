@@ -237,7 +237,7 @@ footer {
 .galery_content {
   width: 80%;
   display: flex;
-  background: red;
+  background: white;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -337,7 +337,7 @@ background: radial-gradient(circle, rgba(0,0,0,0.18841039833902307) 15%, rgba(6,
 } */
 
 
-  /* 
+  /*
 .card {
   width: 20%;
   margin: 25px;
