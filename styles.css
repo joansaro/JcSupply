@@ -27,8 +27,6 @@ section {
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* margin: 50px 0; */
-  /* height:   75vh; */
 }
 
 .content {
@@ -108,7 +106,6 @@ section {
   .info_address{
     font-size: 16px;
     margin: 0;
-    /* font-weight: bold; */
   }
 
   /* Call us */
@@ -150,10 +147,8 @@ section {
   .social_card_info{
     display: flex;
     flex-direction: column;
-    /* background-color: #b8b8b8; */
     width: 30%;
     height: auto;
-    /* background-color: green; */
   }
 
   .social_link{
@@ -249,11 +244,11 @@ section {
 
   @keyframes scroll {
     0% {
-        /* -webkit-transform: translateX(0); */
+        -webkit-transform: translateX(0);
         transform: translateX(0);
     }
     100% {
-        /* -webkit-transform: translateX(calc(-300px * 7)); */
+        -webkit-transform: translateX(calc(-300px * 7));
         transform: translateX(calc(-300px * 7));
     }
   }
@@ -317,7 +312,6 @@ section {
   }
 
   .galery_content{
-    /* background-color: purple; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
