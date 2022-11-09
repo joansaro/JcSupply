@@ -422,7 +422,7 @@ footer {
   .galery_item {
     max-width: 250px;
     max-height: 250px;
-
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -579,5 +579,4 @@ footer {
   .portada img{
     height: 50%;
   }
-}
 }
