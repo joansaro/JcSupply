@@ -76,7 +76,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: calc(300px * 14);
+  width: calc(300px * 20);
   animation: scroll 40s linear infinite;
 }
 
@@ -101,7 +101,7 @@ section {
 
 .new_product_slide .slide .slide_info {
   width: 100%;
-  height: 20%;
+  height: 100px;
   margin: 35px 0;
 }
 
@@ -111,14 +111,11 @@ section {
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(calc(-300px * 7));
-    transform: translateX(calc(-300px * 7));
+    -webkit-transform: translateX(calc(-300px * 10));
+    transform: translateX(calc(-300px * 10));
   }
 }
 
-/* .ocult{
-  visibility: hidden;
-} */
 /*  */
 .history {
   background-color: rgb(35, 35, 35);
@@ -172,10 +169,7 @@ section {
 }
 
 /* Call us */
-/* .callus {
-  background-color: rgb(35, 35, 35);
-  color: white;
-} */
+
 
 .callus_container {
   display: flex;
@@ -319,7 +313,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(300px * 14);
+    width: calc(300px * 20);
     animation: scroll 40s linear infinite;
   }
 
@@ -344,8 +338,8 @@ footer {
 
   .new_product_slide .slide .slide_info {
     width: 100%;
-    height: 20%;
-    margin: 35px 0;
+    height: 100px;
+    margin: 0;
   }
 
   @keyframes scroll {
@@ -354,8 +348,8 @@ footer {
       transform: translateX(0);
     }
     100% {
-      -webkit-transform: translateX(calc(-300px * 7));
-      transform: translateX(calc(-300px * 7));
+      -webkit-transform: translateX(calc(-300px * 10));
+      transform: translateX(calc(-300px * 10));
     }
   }
 
@@ -471,11 +465,9 @@ footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    /* background-color: rebeccapurple; */
   }
   .social_card_info{
     width: 400px;
-    /* background-color: red; */
   }
 }
 
@@ -525,7 +517,7 @@ footer {
 
   .new_product_slide .slide .slide_info {
     width: 100%;
-    height: 20%;
+    height: 100px;
     margin: 35px 0;
   }
 
@@ -644,7 +636,6 @@ footer {
   .portada {
     width: 100%;
     height: 100vh;
-    /* position: absolute; */
     overflow: hidden;
   }
 
